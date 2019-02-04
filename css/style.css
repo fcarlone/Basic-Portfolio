@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url("../images/white-waves.png");
+  background-size: cover;
+}
+
+.nav-bar {
+  display: flex;
+  background: yellow;
+  margin: 0;
+}
+
+.nav-title {
+  background: green;
+  flex: 1;
+  margin-left: 150px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 150px;
+}
+
+li {
+  display: inline;
+}
+
+.bio-image {
+  float: left;
+}
+
+.about-border {
+  border: solid black 5px;
+  margin: 50px 150px 75px 150px;
+  background: white;
+}
