@@ -38,6 +38,15 @@ body {
   padding-top: 12px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #4aaaa5;
+}
+
 ul {
   list-style-type: none;
   margin-right: 150px;
@@ -55,11 +64,13 @@ li:not(:first-child):before {
   padding-right: 11px;
 }
 
-.about-wrapper {
+.about-wrapper,
+.contact-wrapper {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.about-title {
+.about-title,
+.contact-title {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
 }
@@ -74,7 +85,8 @@ hr {
   margin-right: 25px;
 }
 
-.about-border {
+.about-border,
+.contact-border {
   border: solid #cccccc 1px;
   margin: 50px 150px 75px 150px;
   background: white;
@@ -82,7 +94,8 @@ hr {
   padding-right: 25px;
 }
 
-.about-wrapper p {
+.about-wrapper p,
+.form-field label {
   color: #777777;
   font-size: 18px;
   line-height: 32px;
@@ -103,4 +116,30 @@ footer {
 
 h5 {
   margin-bottom: 0;
+}
+
+label {
+  display: block;
+}
+
+.form-field input {
+  width: 1088px;
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.form-button {
+  background: #4aaaa5;
+  color: white;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 15px 0 25px 0;
+}
+
+.form-button:hover {
+  color: #4aaaa5;
+  background: #cccccc;
+  cursor: pointer;
 }
