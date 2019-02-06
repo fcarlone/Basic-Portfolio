@@ -95,6 +95,7 @@ hr {
   background: white;
   padding-left: 25px;
   padding-right: 25px;
+  padding-bottom: 25px;
   width: 910px;
   display: block;
   margin-left: auto;
@@ -149,4 +150,42 @@ label {
   color: #4aaaa5;
   background: #cccccc;
   cursor: pointer;
+}
+
+.portfolio-column {
+  position: relative;
+  float: left;
+  width: 30%;
+  margin: 10px;
+}
+
+.portfolio-column img {
+  width: 100%;
+}
+
+.portfolio-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.portfolio-image-text {
+  position: absolute;
+  bottom: 1%;
+  text-align: center;
+  width: 100%;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background: #4aaaa5;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.portfolio-image-text:hover {
+  background: white;
+  color: #4aaaa5;
 }
