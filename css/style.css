@@ -65,12 +65,14 @@ li:not(:first-child):before {
 }
 
 .about-wrapper,
-.contact-wrapper {
+.contact-wrapper,
+.portfolio-wrapper {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .about-title,
-.contact-title {
+.contact-title,
+.portfolio-title {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
 }
@@ -86,7 +88,8 @@ hr {
 }
 
 .about-border,
-.contact-border {
+.contact-border,
+.portfolio-border {
   border: solid #cccccc 1px;
   margin: 50px 150px 75px 150px;
   background: white;
